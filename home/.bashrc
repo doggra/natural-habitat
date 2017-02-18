@@ -3,7 +3,7 @@
 # for examples
 
 # Custom prompt
-export PS1="\[\e[0;34m\][\[\e[0;37m\]\u\[\e[m\]@\[\e[0;37m\]\h \[\e[2;52m\]\w\[\e[0;34m\]]\$ \[\e[m\]"
+export PS1="\[\e[0;34m\][\[\e[0;37m\]\u\[\e[0;31m\]@\[\e[0;37m\]\h \[\e[2;52m\]\w\[\e[0;34m\]]\$ \[\e[m\]"
 
 # If not running interactively, don't do anything
 case $- in
